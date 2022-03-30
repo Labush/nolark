@@ -5,66 +5,84 @@
      Email : jgil83000@gmail.com
 -->
 <html lang="fr-FR">
-    <head>
-        <title>Casques Nolark : Sécurité et confort, nos priorités !</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="José GIL">
-        <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/cookies/tarteaucitron/tarteaucitron.js"></script>
-        <script src="js/cookies/tarteaucitron.init.js"></script>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link rel="icon" href="favicon.ico">
-    </head>
-    <body>
-        <?php
-            include('./includes/header.html.inc.php');
-        ?>
-        <section id="principal">
-            <article>
-                <img src="images/post-it.png">
-                <p>
-                    Au-delà de l'obligation légale, le port d'un casque est le garant de votre
-                    sécurité. Le choix de votre casque doit se faire en fonction de vos besoins 
-                    (route, cross, piste...).
-                </p>
-                <p>
-                    Spécialiste reconnu dans l'univers de la sécurité du deux-roues, Nolark vous 
-                    propose des milliers de modèles de casques disponibles au travers de plus de 
-                    50 marques. Vous trouverez ici tous les types de casques moto : jet, intégral, 
-                    modulable, transformable, piste, cross ou encore un large choix de casques 
-                    moto enfant (taille et poids spécialement adaptés).
-                </p>
-                <p>
-                    Nolark c'est également la disponibilité de toutes les couleurs et matières et 
-                    ce, pour toutes les bourses.
-                </p>
-                <p>
-                    Une question ? Un conseil ? Nos conseillers sont là pour vous aiguiller afin 
-                    de trouver le modèle qui correspond à vos besoins.
-                </p>
-                <p>
-                    Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe 
-                    de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de 
-                    répondre au mieux à vos attentes.
-                </p>
-            </article>
-            <aside>
-                <img src="images/conseilcasque01.jpg" alt="Conseil du mois : Casque Cross">
-                <p>Pour le style: Furious replica</p>
-                <img src="images/conseilcasque02.jpg" alt="Conseil du mois : Intgéral Piste">
-                <p>Pour le confort: Stars racing</p>
-            </aside>
 
-        </section>
-        <section id="thematique">
-            <h1>Catégories les plus populaires</h1>
-            <article id="gauche"><a href="pages/route.php">Route</a></article>
-            <article id="milieu"><a href="pages/cross.php">Cross</a></article>
-            <article id="droite"><a href="pages/piste.php">Piste</a></article>
-        </section>
-        <?php
-            include('./includes/footer.inc.php');
-        ?>
-    </body>
+<head>
+    <title>Casques Nolark : Sécurité et confort, nos priorités !</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="José GIL">
+    <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/cookies/tarteaucitron/tarteaucitron.js"></script>
+    <script src="js/cookies/tarteaucitron.init.js"></script>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="favicon.ico">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+</head>
+
+<body>
+    <?php
+    include('./includes/header.html.inc.php');
+    ?>
+
+    <div style="height:750px;background-image:url('images/banniere.jpg');background-size:100%;">
+        <!-- <img style="width: 100%;margin-top:-70px;" src="images/banniere.jpg" alt="Nolark : background moto"> -->
+        <!-- source : https://unsplash.com/photos/zsH35a6Rl3o -->
+        <br><br><br><br><br><br><br>
+        <a class="btn_call">
+            <button class="btn btn-dark">Découvrir Nolark <i class="fas fa-level-down-alt" style="margin-left: 10px;"></i></button>
+        </a>
+    </div>
+
+    <section id="principal">
+        <img id="postit" src="images/post-it.png">
+
+        <article>
+            <p>
+                Au-delà de l'obligation légale, <span>le port d'un casque</span> est le garant de votre
+                <span>sécurité</span>. Le choix de votre casque doit se faire en fonction de <span>vos besoins</span>
+                (route, cross, piste...).
+            </p>
+            <p>
+                Spécialiste reconnu dans l'univers de la sécurité du deux-roues, <span>Nolark vous
+                    propose des milliers de modèles de casques disponibles au travers de plus de
+                    50 marques</span>. Vous trouverez ici tous les types de casques moto : jet, intégral,
+                modulable, transformable, piste, cross ou encore un large choix de casques
+                moto enfant (taille et poids spécialement adaptés).
+            </p>
+            <p>
+                Nolark c'est également la <span>disponibilité de toutes les couleurs et matières</span> et
+                ce, pour toutes les bourses.
+            </p>
+            <p>
+                Une question ? Un conseil ? Nos conseillers sont là pour vous aiguiller afin
+                de trouver le modèle qui correspond à vos besoins.
+            </p>
+            <p>
+                <span><i class="fas fa-caret-right" style="margin-right: 10px;"></i></span> Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe
+                de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de
+                répondre au mieux à vos attentes.
+            </p>
+        </article>
+
+    </section>
+    <section id="thematique">
+        <h1 id="titre_categories">
+            Catégories les plus populaires
+        </h1>
+        <h1>
+            <a href="pages/route.php" class="pop"><i class="fas fa-caret-right"></i> Route</a>
+            <a href="pages/cross.php" class="pop"><i class="fas fa-caret-right"></i> Cross</a>
+            <a href="pages/piste.php" class="pop"><i class="fas fa-caret-right"></i> Piste</a>
+        </h1>
+    </section>
+    <?php
+    include('./includes/footer.inc.php');
+    ?>
+</body>
+
 </html>
