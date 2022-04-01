@@ -1,41 +1,48 @@
+nav{
+    z-index:1 !important;
+}
+footer{
+    margin-top:95px;
+}
 #casques {
+    margin-top: 100px !important;
     display: flex; /* Ce conteneur est "flexible" */
     flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
     justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
-    padding-left: 0; /* Marge interne gauche */
-    padding-right: 0; /* Marge interne droite */
+    padding-left: 10%; /* Marge interne gauche */
 }
 
 #casques article {
-    width: 163px; /* Largeur de l'article */
-    height: 275px; /* Hauteur de l'article */
-    margin: 10px; /* Marges extérieures */
-    padding: 5px; /* Marges intérieures */
-    border: white thin solid; /* Bordure blanche */
+    width: 350px; /* Largeur de l'article */
+    height: 350px; /* Hauteur de l'article */
+    margin: 30px; /* Marges extérieures */
+    border: solid #e04848 4px;
+    border-radius: 11px;
     position: relative; /* Position relative */
+
+    cursor: pointer;
+    text-align: center !important;
 }
 
 #casques article img {
-    margin-left: 6px; /* Marge gauche */
-}
-
-#casques article:hover {
-    border: #bbb thin solid; /* Bordure au survol */
+    margin-top: 50px;
+    margin-left: 90px;
 }
 
 #casques .prix {
-    color: red; /* Couleur du texte */
+    color: #fbfbfb; /* Couleur du texte */
     font-weight: bold; /* Texte en gras */
-    margin-bottom: 10px; /* Marge basse */
+    margin-bottom:-1px;
+    background-color: #e04848;
 }
 
 #casques .marque {
     text-transform : uppercase;  /* Mise en majuscules du texte */
-    font-family: 'Nordic'; /* Police de caractères */
     font-size: x-large; /* Le texte est grossi en XL */
     display: inline; /* Affichage à la ligne pour éviter la superposition avec le stock */
     white-space: nowrap; /* Pas de passage à la ligne */
     font-weight: bold; /* Texte en gras */
+    letter-spacing: 2px;
 }
 
 #casques .modele {
@@ -46,15 +53,24 @@
     float: right; /* Alignement flottant à droite */
     text-transform : uppercase; /* Mise en majuscules du texte */
     padding: 2px; /* Marges intérieures */
+    letter-spacing: 2px;
+    margin-right: -12%;
 }
 
 #casques .stockok {
-    background-color: chartreuse; /* Couleur du fond */
+    background-color: #262626; /* Couleur du fond */
+    border-radius: 11px;
+    margin-top: 15px;
+    padding: 10px;
+    color: #fbfbfb;
 }
 
 #casques .stockko {
-    background-color: red; /* Couleur du fond */
-    color: white; /* Couleur du texte */
+    background-color: #262626; /* Couleur du fond */
+    border-radius: 11px;
+    margin-top: 15px;
+    padding: 10px;
+    color: #fbfbfb;
 }
 
 [data-tip] {
@@ -69,7 +85,7 @@
     position:absolute; /* Position absolue */
 
     /* Création d'un triangle à l'aide des bordures */
-    border-bottom: 12px solid fuchsia;
+    border-bottom: 12px solid;
     border-top: 5px solid transparent;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
@@ -81,10 +97,11 @@
     content: attr(data-tip); /* Le contenu correspond à la valeur de l'attribut data-tip présent dans l'HTML */
     position: absolute; /* Position absolue */
     top: 28px; /* Position du haut */
-    left: 10px; /* Position de l'angle gauche */
+    left: -70px; /* Position de l'angle gauche */
     white-space: nowrap; /* pas de retour à la ligne dans l'infobulle' */
     padding: 5px 10px; /* Marges intérieures (Haut/Bas Gauche/Droite)*/
-    background-color: fuchsia; /* Couleur du fond */
+    background-color: #e04848; /* Couleur du fond */
+    border-radius: 2px;
     color: white; /* Couleur du texte */
     z-index: 1; /* L'infobulle sera au dessus du reste */
 }
@@ -93,9 +110,9 @@
     width: 85px; /* Largeur de l'image */
     height: 18px; /* Hauteur de l'image */
     position: absolute; /* Position absolue */
-    bottom: 0; /* Bas */
+    bottom: 10; /* Bas */
     object-fit: none; /* Pas de redimensionnement de l'image */
-    margin: 0 39px; /* Marges extérieures */
+    margin: 0 -40px; /* Marges extérieures */
 }
 
 #casques .classement.classement00 {
@@ -152,7 +169,7 @@
     }
     body, #casques article p.marque { 
         font-size: 15pt; 
-        font-family: serif; 
+        
     }
     #casques article { 
         width: 100%; 
