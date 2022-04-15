@@ -10,8 +10,9 @@
     <title>Casques Nolark : Sécurité et confort, nos priorités !</title>
     <meta charset="UTF-8">
     <meta name="author" content="José GIL">
-    <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !">
+    <meta name="description" content="Nolark - Les casques moto qui vous protègent efficacement. Enfin disponibles en ligne : au meilleur prix et en livraison gratuite !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="js/cookies/tarteaucitron/tarteaucitron.js"></script>
     <script src="js/cookies/tarteaucitron.init.js"></script>
 
@@ -30,7 +31,6 @@
     ?>
 
     <div style="height:750px;background-image:url('images/banniere.jpg');background-size:100%;">
-        <!-- <img style="width: 100%;margin-top:-70px;" src="images/banniere.jpg" alt="Nolark : background moto"> -->
         <!-- source : https://unsplash.com/photos/zsH35a6Rl3o -->
         <br><br><br><br><br><br><br>
         <a class="btn_call">
