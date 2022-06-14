@@ -33,51 +33,78 @@
     <div style="height:750px;background-image:url('images/banniere.jpg');background-size:100%;">
         <!-- source : https://unsplash.com/photos/zsH35a6Rl3o -->
         <br><br><br><br><br><br><br>
-        <a class="btn_call">
-            <button class="btn btn-dark">Découvrir Nolark <i class="fas fa-level-down-alt" style="margin-left: 10px;"></i></button>
-        </a>
+        <h1 class="titre">
+            <span style="color:black;">N</span>
+            olark
+            <span style="color:black;">.</span>
+        </h1>
+
+        <p style="text-align:center;margin-top:300px;">
+            <i class="fas fa-angle-double-down fa-3x" style="color:white;"></i>
+        </p>
     </div>
 
-    <section id="principal">
-        <img id="postit" src="images/post-it.png">
+    <section>
+        <!-- <img id="postit" src="images/post-it.png"> -->
 
         <article>
+            <h2>Qui sommes-nous ?</h2>
             <p>
-                Au-delà de l'obligation légale, <span>le port d'un casque</span> est le garant de votre
-                <span>sécurité</span>. Le choix de votre casque doit se faire en fonction de <span>vos besoins</span>
-                (route, cross, piste...).
-            </p>
-            <p>
-                Spécialiste reconnu dans l'univers de la sécurité du deux-roues, <span>Nolark vous
-                    propose des milliers de modèles de casques disponibles au travers de plus de
-                    50 marques</span>. Vous trouverez ici tous les types de casques moto : jet, intégral,
+                <span><i class="fas fa-caret-right" style="margin-right: 10px;"></i></span>
+                Spécialiste reconnu dans l'univers de la sécurité du deux-roues,
+
+                Nolark vous propose des <span>milliers de modèles</span> de casques disponibles au travers de plus de <span>50 marques</span>.
+
+                <br><br>
+
+                <span><i class="fas fa-caret-right" style="margin-right: 10px;"></i></span>
+                Nolark c'est également la <span>disponibilité de toutes les couleurs et matières</span>
+                et ce, pour toutes les bourses.
+
+                <br>Vous trouverez ici tous les types de casques moto : jet, intégral,
                 modulable, transformable, piste, cross ou encore un large choix de casques
                 moto enfant (taille et poids spécialement adaptés).
-            </p>
-            <p>
-                Nolark c'est également la <span>disponibilité de toutes les couleurs et matières</span> et
-                ce, pour toutes les bourses.
-            </p>
-            <p>
-                Une question ? Un conseil ? Nos conseillers sont là pour vous aiguiller afin
-                de trouver le modèle qui correspond à vos besoins.
-            </p>
-            <p>
-                <span><i class="fas fa-caret-right" style="margin-right: 10px;"></i></span> Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe
+
+                <br><br>
+                <span><i class="fas fa-caret-right" style="margin-right: 10px;"></i></span>
+                Nolark n'est pas seulement un magasin de casques.
+
+                <br>
+                C'est avant tout une équipe
                 de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de
                 répondre au mieux à vos attentes.
+            </p>
+
+            <br><br>
+            <p style="text-align:center;">
+                Au-delà de l'obligation légale, <span>le port d'un casque</span> est le garant de votre
+                <span>sécurité</span>.
+                <br>Ainsi, le choix de votre casque doit se faire en fonction de <span>vos besoins</span>
+                (route, cross, piste...).
+
+                <br><br><br>
+                <i class="fas fa-angle-double-down fa-2x" style="color:#e04848;"></i>
             </p>
         </article>
 
     </section>
     <section id="thematique">
-        <h1 id="titre_categories">
+        <!-- <h1 id="titre_categories">
             Catégories les plus populaires
-        </h1>
+        </h1> -->
         <h1>
-            <a href="pages/route.php" class="pop"><i class="fas fa-caret-right"></i> Route</a>
-            <a href="pages/cross.php" class="pop"><i class="fas fa-caret-right"></i> Cross</a>
-            <a href="pages/piste.php" class="pop"><i class="fas fa-caret-right"></i> Piste</a>
+            <a href="pages/route.php" class="pop"><i class="fas fa-motorcycle"></i>
+                <span style="font-size: 30px;letter-spacing:1px;margin-left:10px;">Route</span>
+            </a>
+
+            <a href="pages/cross.php" class="pop"><i class="fas fa-motorcycle"></i>
+                <span style="font-size: 30px;letter-spacing:1px;margin-left:10px;">Cross</span>
+            </a>
+
+            <a href="pages/piste.php" class="pop"><i class="fas fa-motorcycle"></i>
+                <span style="font-size: 30px;letter-spacing:1px;margin-left:10px;">Piste</span>
+
+            </a>
         </h1>
     </section>
     <?php

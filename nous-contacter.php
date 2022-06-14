@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="José GIL">
-    <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !">
+    <meta name="description" content="Nolark - Les casques moto qui vous protègent efficacement. Enfin disponibles en ligne : au meilleur prix et en livraison gratuite !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../js/cookies/tarteaucitron/tarteaucitron.js"></script>
     <script src="../js/cookies/tarteaucitron.init.js"></script>
@@ -34,13 +34,15 @@
     include('../includes/header.html.inc.php');
     ?>
     <section id="carto">
-        <h1>Nous localiser :</h1>
+        <h1 id="localiser">Nous localiser <i class="fas fa-level-down-alt" style="color:#e04848;"></i></h1>
         <img class="carte" src="https://open.mapquestapi.com/staticmap/v5/map?key=bZNXQieHCY65xphzmzAPLTH1EQSKUDq0&locations=Toulon,Var,France|http://gil83.fr/nolark/marqueur_nolark.png&center=Chateauroux,Indre,France&zoom=6&size=590,610" alt="Carte OpenStreetMap statique avec le pays de Nolark">
         <img class="carte" src="https://open.mapquestapi.com/staticmap/v5/map?key=bZNXQieHCY65xphzmzAPLTH1EQSKUDq0&locations=Avenue%20Winston%20Churchill,%20Toulon,%20Var,%20Provence-Alpes-Cote%20d'Azur,%20France%20metropolitaine,%2083041,%20France|http://gil83.fr/nolark/marqueur_nolark.png&zoom=13&size=306,300" alt="Carte OpenStreetMap statique avec la ville de Nolark">
         <img class="carte" src="https://open.mapquestapi.com/staticmap/v5/map?key=bZNXQieHCY65xphzmzAPLTH1EQSKUDq0&locations=43.12546,%205.92672|http://gil83.fr/nolark/marqueur_nolark.png&zoom=17&size=306,300" alt="Carte OpenStreetMap statique avec l'emplacement de Nolark">
     </section>
+
+    <br><br>
     <section id="contact">
-        <h1>Nous contacter </h1>
+        <h1>Nous contacter <i class="fas fa-level-down-alt" style="color:#e04848;"></i></h1>
         <br><br>
         <form id="form_contact" name="form_contact" action="http://gil83.fr/nolark/testforms.php" method="POST">
             <fieldset id="coordo">
@@ -138,7 +140,7 @@
             </fieldset>
             <div id="controles">
                 <input type="button" class="btn btn-dark" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre demande de contact">
-                <input type="reset" class="btn btn-dark" name="rst_annuler" value="Effacer les réponses">
+                <input type="reset" class="btn btn-dark" style="background-color: #ff4444;" name="rst_annuler" value="Effacer les réponses">
             </div>
         </form>
     </section>
